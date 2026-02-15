@@ -2,7 +2,8 @@
 
 A real-time bookmark manager with Google OAuth authentication, built with Next.js and Supabase.
 
-**Live Demo:** [Your Vercel URL]  
+**Live Demo:** [\Vercel URL\  ](https://bookmark-app-gray.vercel.app/)
+
 **Repository:** https://github.com/AryanGotiwale/Bookmark-App
 
 ## Features
@@ -246,7 +247,7 @@ const handleDelete = async (id: string) => {
 
 **Aryan Gotiwale**
 - GitHub: [@AryanGotiwale](https://github.com/AryanGotiwale)
-- Email: ggotiwale@gmail.com
+- Email: aryangotiwale@gmail.com
 
 ## License
 
