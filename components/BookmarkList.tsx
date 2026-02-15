@@ -43,7 +43,7 @@ export default function BookmarkList({ userId, refreshTrigger }: BookmarkListPro
           table: 'bookmarks',
           filter: `user_id=eq.${userId}`,
         },
-        (payload) => {
+        (payload: any) => {
           console.log('Realtime event received:', payload)
           if (payload.eventType === 'INSERT') {
             setBookmarks((current) => [payload.new as Bookmark, ...current])
@@ -60,7 +60,7 @@ export default function BookmarkList({ userId, refreshTrigger }: BookmarkListPro
           }
         }
       )
-      .subscribe((status) => {
+      .subscribe((status: any) => {
         console.log('Realtime subscription status:', status)
       })
 
